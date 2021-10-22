@@ -1,2 +1,13 @@
 [build]
 target-dir = "target"
+[template]
+template = """
+use proconio::{input, fastout};
+
+#[fastout]
+fn main() {
+    input! {
+        x: i32,
+    };
+}
+"""
