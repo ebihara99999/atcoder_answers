@@ -10,3 +10,7 @@ proconio = { version = "0.3.6", features = ["derive"] }
 [profile.release]
 lto = true
 panic = 'abort'
+
+[[bin]]
+name = "b"
+path = "src/bin/b.rs"
